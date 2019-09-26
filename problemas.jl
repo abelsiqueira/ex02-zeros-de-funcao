@@ -10,7 +10,7 @@ const ProblemList =
   EquacaoNL(x -> x^5 - 2^5, 1.0, "Grau 5"),
   EquacaoNL(x -> sin(x) + max(3 - x, 0)^2 + max(x - 3.2, 0)^2, 1.0, "π por sin"),
   EquacaoNL(x -> 1 / (1 + exp(-0.1x + 1)) - 0.5, 0.0, "Sigmoid"),
-  EquacaoNL(x -> (sen(exp(x^6)+1)/cos(exp(x^6)+1))/exp(x^2), 1.0, "Tangente e exp"),
+  EquacaoNL(x -> (sin(exp(x^6)+1)/cos(exp(x^6)+1))/exp(x^2), 1.0, "Tangente e exp"),
   EquacaoNL(x -> sin(exp(x)) * log(x^2+1), 3.0, "Função tipo seno de log e exp"),
   EquacaoNL(x -> sin(exp(x^2+2x))/cos(exp(x^2+2x)), 1.0, "Exp e Tangente"),
   EquacaoNL(x -> ln(x^2 + 8)*x/ exp(x), -1.0, "Secante"),
