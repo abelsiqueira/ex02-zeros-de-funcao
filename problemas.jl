@@ -1,4 +1,4 @@
 const ProblemList =
 [
-  EquacaoNL(x -> exp(x)*sin(x + π/2), 0.0,"Sen vezes exp")
+  EquacaoNL(x -> sin(x - ℯ)/cosh(x), 0.0,"Sen por cosseno hiperbólico")
 ]
