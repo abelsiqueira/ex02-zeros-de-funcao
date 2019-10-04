@@ -10,4 +10,5 @@ const ProblemList =
   EquacaoNL(x -> x^5 - 2^5, 1.0, "Grau 5"),
   EquacaoNL(x -> sin(x) + max(3 - x, 0)^2 + max(x - 3.2, 0)^2, 1.0, "π por sin"),
   EquacaoNL(x -> 1 / (1 + exp(-0.1x + 1)) - 0.5, 0.0, "Sigmoid"),
+  EquacaoNL(x -> exp(x) - exp(-x), 1.0, "Simplão do CiDAMO")
 ]
