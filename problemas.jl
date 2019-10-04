@@ -12,7 +12,5 @@ const ProblemList =
   EquacaoNL(x -> 1 / (1 + exp(-0.1x + 1)) - 0.5, 0.0, "Sigmoid"),
   EquacaoNL(x -> x^6 - 48*x^4 + 1344*x^2 - 4096, 0.0, "Grau 6"),
   EquacaoNL(x -> sin(exp(x))+cos(exp(x)), 0.0, "sen + cos de exp"),
-  EquacaoNL(x -> log(x^2 + 5)/exp(sin(x))+x, 0.0,"Log exp e sen"),
-  EquacaoNL(x -> log(sin(x)^2), 0.0,"Log e sin"),
-  EquacaoNL(x -> sin(x - ℯ)/exp(x), 0.0,"Sen por exp")
+  EquacaoNL(x -> log(x^2 + 5)/exp(sin(x))+x, 0.0,"Log exp e sen")
 ]
