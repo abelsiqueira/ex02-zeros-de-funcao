@@ -10,4 +10,9 @@ const ProblemList =
   EquacaoNL(x -> x^5 - 2^5, 1.0, "Grau 5"),
   EquacaoNL(x -> sin(x) + max(3 - x, 0)^2 + max(x - 3.2, 0)^2, 1.0, "π por sin"),
   EquacaoNL(x -> 1 / (1 + exp(-0.1x + 1)) - 0.5, 0.0, "Sigmoid"),
+  EquacaoNL(x -> (x/7) - 2x^2 + 15x^3 - 4x^4 +12, 1.0, "Quadrica"),
+  EquacaoNL(x -> cos(x) - (x/7) + 18, 1.0, "Função tipo cosseno"),
+  EquacaoNL(x -> x*cos(3*exp(x)) + 8, 1.0, "Função tipo cosseno e exp"),
+  EquacaoNL(x -> sin(x^3 + 2x - 3), 0.0, "Função tipo seno"),
+  EquacaoNL(x -> cos(x-3) - exp(x^2) + 5, 0.0, "Função tipo cosseno e exp")
 ]
