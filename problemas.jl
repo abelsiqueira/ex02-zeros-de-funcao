@@ -16,8 +16,5 @@ const ProblemList =
   EquacaoNL(x -> log(sin(x)^2), 0.0,"Log e sin"),
   EquacaoNL(x -> sin(x - ℯ)/cosh(x), 0.0,"Sen por cosseno hiperbólico"),
   EquacaoNL(x -> cos(exp(sin(x))), 0.0,"Cos e exp"),
-  EquacaoNL(x -> x/log(x^2), 1.0,"x por log"),
-  EquacaoNL(x -> -x*exp((sin(x)) + x*log(exp(x)) + x*cos(x)), 3.0,"soma tudo"),
-  EquacaoNL(x -> 1/(atan(x^2+1) + log(1/exp(x))), 0.0,"soma com inversas"),
-  EquacaoNL(x -> exp(x)*sin(x + π/2), 0.0,"Sen vezes exp")
+  EquacaoNL(x -> x/log(x^2), 1.0,"x por log")
 ]
