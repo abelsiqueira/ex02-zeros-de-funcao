@@ -172,31 +172,3 @@ function bisseccao(enl :: EquacaoNL{T};
 end
 
 
-function nm(enl :: EquacaoNL{T}, x)
-
-	 #x e a primeira aproximacao
-	 #f a funcao extraida de enl
-	 #fp  a primeira derivada de enl
-	 max_iter = 100
-  	 f = fun_val(enl, x)
-  	 fp = der_val(enl, x)
-
-	 xnew, xold = x, Inf
-	 fn, fo = f(xnew), Inf
-
-	 tol = 1e-14
-	 ctr = 1
-
-	 while (ctr < max_iter) && (abs(xnew - xold) > tol) && ( abs(fn - fo) > tol )
-	   x = xnew - f(xnew)/fp(xnew) # update step
-	   xnew, xold = x, xnew
-           fn, fo = f(xnew), fn
-	   ctr = ctr + 1
-	 end
-
-	 if ctr == max_iter
-	    error("Did not converge in max_iter")
-         else
-	   xnew, ctr
-         end
-end
