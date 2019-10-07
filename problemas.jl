@@ -30,14 +30,5 @@ const ProblemList =
   EquacaoNL(x -> x*exp((sin(x)) + x*sin(x) + 1), 3.0, "soma tudo"),
   EquacaoNL(x -> 1/(atan(x^2+1) + log(1/exp(x))), 0.0,"soma com inversas"),
   EquacaoNL(x -> exp(x)*sin(x + π/2), 0.0,"Sen vezes exp"),
-  EquacaoNL(x -> (x/7) - 2x^2 + 15x^3 - 4x^4 +12, 1.0, "Quadrica"),
-  EquacaoNL(x -> cos(x) - (x/7) + 18, 1.0, "Função tipo cosseno"),
-  EquacaoNL(x -> x*cos(3*exp(x)) + 8, 1.0, "Função tipo cosseno e exp"),
-  EquacaoNL(x -> sin(x^3 + 2x - 3), 0.0, "Função tipo seno"),
-  EquacaoNL(x -> exp((x^2)/10000) - ((exp(x+4))/(exp(x)+5)) ,-2.0, "Função exp"),
-  EquacaoNL(x -> cos(x-3) - exp((x^2)/10000) + 1, 1.0, "Função tipo cosseno e exp"),
-  EquacaoNL(x -> ln(x^2 + 8)*x/exp(sqrt(x^2+1), -1.0, "Função log e exp"),
-  EquacaoNL(x -> sen(x^2 + pi) * x/10, 1.0, "Função seno"),
-  EquacaoNL(x -> arcos(3*x + 4) * 5*sen(x), 1.0, "Função arcoseno e seno"),
-  EquacaoNL(x -> 3 *  log(x^2 +6)*cos(x)/x^2 +8, 0.0, "Função log e cos")
+  EquacaoNL(x -> (x/7) - 2x^2 + 15x^3 - 4x^4 +12, 1.0, "Quadrica")
 ]
