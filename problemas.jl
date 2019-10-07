@@ -32,5 +32,6 @@ const ProblemList =
   EquacaoNL(x -> exp(x)*sin(x + π/2), 0.0,"Sen vezes exp"),
   EquacaoNL(x -> (x/7) - 2x^2 + 15x^3 - 4x^4 +12, 1.0, "Quadrica"),
   EquacaoNL(x -> cos(x) - (x/7) + 18, 1.0, "Função tipo cosseno"),
-  EquacaoNL(x -> x*cos(3*exp(x)) + 8, 1.0, "Função tipo cosseno e exp")
+  EquacaoNL(x -> x*cos(3*exp(x)) + 8, 1.0, "Função tipo cosseno e exp"),
+  EquacaoNL(x -> sin(x^3 + 2x - 3), 0.0, "Função tipo seno")
 ]
