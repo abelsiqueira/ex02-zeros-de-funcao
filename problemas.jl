@@ -35,6 +35,5 @@ const ProblemList =
   EquacaoNL(x -> x*cos(3*exp(x)) + 8, 1.0, "Função tipo cosseno e exp"),
   EquacaoNL(x -> sin(x^3 + 2x - 3), 0.0, "Função tipo seno"),
   EquacaoNL(x -> exp((x^2)/10000) - ((exp(x+4))/(exp(x)+5)) ,-2.0, "Função exp"),
-  EquacaoNL(x -> cos(x-3) - exp((x^2)/10000) + 1, 1.0, "Função tipo cosseno e exp"),
-  EquacaoNL(x -> ln(x^2 + 8)*x/exp(sqrt(x^2+1), -1.0, "Função log e exp")
+  EquacaoNL(x -> cos(x-3) - exp((x^2)/10000) + 1, 1.0, "Função tipo cosseno e exp")
     ]
